@@ -256,6 +256,9 @@ ul a {
   color: var(--color-background-sec);
 }
 /* Portfolio */
+.container-portfolio {
+  margin-bottom: 120px;
+}
 .button-portfolio {
   color: var(--color-logo-button);
   background-color: var(--color-background-sec);
