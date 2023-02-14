@@ -33,6 +33,11 @@ ul {
 ul a {
   text-decoration: none;
 }
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .border-box {
   background-color: var(--color-background);
   border-bottom: 1px solid var(--color-border);
@@ -189,11 +194,10 @@ ul a {
   gap: 24px;
   flex-basis: calc((100% - 48px) / 3);
 }
-.image-list {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.section-doing {
+  padding-bottom: 120px 0;
 }
+
 /* Our team*/
 .team {
   background-color: var(--color-background-sec);
@@ -204,7 +208,7 @@ ul a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.list-team {
+.team-section {
   padding: 120px 0;
 }
 .title-team {
@@ -246,6 +250,7 @@ ul a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+  margin-top: 16px;
 }
 .logo-lower {
   color: var(--color-background-sec);
@@ -277,8 +282,8 @@ ul a {
   gap: 24px;
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 .box-portfolio {
   background-color: var(--color-background);
@@ -289,7 +294,6 @@ ul a {
   row-gap: 48px;
   flex-wrap: wrap;
   flex-basis: calc((100% - 48px) / 3);
-  padding-bottom: 120px;
 }
 .box-name {
   border-left: 1px solid var(--color-border);
@@ -303,8 +307,8 @@ ul a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .box-filter {
   color: var(--color-secondary);
